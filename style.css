@@ -1,0 +1,182 @@
+
+* {
+	margin: 5px; /* THIS KEEPS STUFF FROM PRESSING
+					AGAINST THE WALLS */
+}
+
+
+html, body {
+	height: 100%;
+}
+
+body {
+	background-color: #0E0E52;
+	color: #fff;
+	font-family: Arial;
+}
+
+#wrapper {
+	min-height: 100%; /* KEEPS CONTENT FROM SQUISHING TOGETHER */
+	height: 100%;
+	margin: 0 auto -50px;
+	width: 960px; /* KEEPS CONTENT FROM DISPLACING WHEN ZOOMED */
+}
+
+.main-body {
+	position: relative;
+	width: 70%;
+	float: right;
+	margin: 5px;
+	padding: 0;
+}
+
+.header {
+	position: relative;
+	background-color: #150597;
+	float: right;
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+header {
+	background-color: #150597;
+	padding-top: 1px;
+	text-align: left;
+	position: relative;
+	margin-bottom: auto;
+	padding-left: 10px;
+	margin-top: 15px;
+}
+
+h2 {
+	background-color: #150597;
+	padding-top: 1px;
+	text-align: right;
+	position: relative;
+	margin-top: auto;
+	padding-right: 10px;
+	font-size: 12px;
+}
+
+
+
+
+/* THIS IS THE SIDE-BAR MENU */
+/**************************************/
+#side-menu {
+	position: fixed;
+	font-size: 10px;
+	font-weight: bold;
+	border: solid;
+	top: 0;
+	float: left;
+	width: 200px;
+	background-color: #0E0E52; /* MAKES MENU OPAQUE */
+}
+
+#side-menu-list {
+	list-style-type: none;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+}
+
+#side-menu-list li {
+	margin: 5px 0;
+	margin-right: 10px;
+	margin-left: 0;
+	font-size: 20px;
+	padding: 5px;
+}
+
+hr {
+	margin: 0;
+}
+
+/***************************************/
+
+
+
+
+/* THIS IT THE GRAPHICAL MENU */
+/************************************/
+.icons {
+	margin: 50px;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+	padding: 50px;
+}
+
+#icon-menu {
+	width: 100%;
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+}
+
+#icon-menu li {
+	margin: 0;
+	float: left;
+	padding: 10px 10px;
+}
+
+#icon-menu li a {
+	display: block;
+}
+
+/***************************************/
+
+
+
+
+li a:link, li a:active, li a:hover, li a:visited {
+	text-decoration: none;
+	color: #fff;
+}
+
+li a:hover {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.text {
+	padding: 50px;
+	float: left;
+}
+
+p {
+	position: relative;
+	margin-bottom: auto;
+	margin-top: auto;
+	padding: 5px auto;
+	text-align: justify;
+}
+
+
+
+
+/* PUTTING A 100% ON THE FOOTER
+	CAUSES IT TO STRECTH OUT THE
+	WIDTH OF THE PAGE FOR REASONS
+	UNKNOWN. */
+
+footer {
+	font-weight: bold;
+	background-color: #449DD1;
+	float: right;
+	width: 100%;
+	margin: 10px 0;
+	text-align: center;
+}
+
+.footer, .push {
+	height: 50px;
+}
+
+.footer-text {
+	padding: 10px;
+	text-align: center;
+	padding: 0 auto;
+	display: inline-block;
+}

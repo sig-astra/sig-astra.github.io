@@ -1,0 +1,13 @@
+home-icon.png
+
+	https://pixabay.com/en/home-start-%C2%ABtop%C2%BB-icon-1110867/
+
+
+admin-icon.png
+
+	https://pixabay.com/en/gear-transmission-settings-industry-1077563/
+
+
+free-stuff-icon.png
+
+	https://pixabay.com/en/store-floppy-disk-data-icon-1103555/
