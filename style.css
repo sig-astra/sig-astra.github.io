@@ -35,14 +35,14 @@ body {
 
 .header {
 	position: relative;
-	background-color: #150597;
+	/* background-color: #150597; */
 	float: right;
 	width: 100%;
 	margin-bottom: 5px;
 }
 
 header {
-	background-color: #150597;
+	/* background-color: #150597; */
 	padding-top: 1px;
 	text-align: left;
 	position: relative;
@@ -52,7 +52,7 @@ header {
 }
 
 h2 {
-	background-color: #150597;
+	/* background-color: #150597; */
 	padding-top: 1px;
 	text-align: right;
 	position: relative;
@@ -71,10 +71,11 @@ h2 {
 	font-size: 10px;
 	font-weight: bold;
 	border: solid;
+	border-width: 1px;
 	top: 0;
 	float: left;
 	width: 200px;
-	background-color: #150597; /* MAKES MENU OPAQUE */
+	/* background-color: #150597; | MAKES MENU BLUE | inactive */
 }
 
 #side-menu-list {
@@ -165,7 +166,7 @@ p {
 
 footer {
 	font-weight: bold;
-	background-color: #449DD1;
+	/* background-color: #449DD1; */
 	float: right;
 	width: 100%;
 	margin: 10px 0;
