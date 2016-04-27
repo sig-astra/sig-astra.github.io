@@ -1,12 +1,22 @@
 
 * {
 	margin: 5px; /* THIS KEEPS STUFF FROM PRESSING
-					AGAINST THE WALLS */
+					AGAINST THE WALLS 
+
+					DO NOT REMOVE!!
+
+					MANY ELEMENTS ON THE PAGE RELY ON
+					THIS. MUST BE FIXED! */
 }
 
 
 html, body {
 	height: 100%;
+	margin: 0 0 !important;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+box-sizing: border-box;
+	overflow: hidden;
 }
 
 body {
@@ -16,6 +26,7 @@ body {
 	font-family: Century Gothic, sans-serif;
 	color: #fff;
 	background-size: 100%;
+	margin: 0 0 !important;
 }
 
 #wrapper {
@@ -111,7 +122,6 @@ hr {
 	margin: 0 auto;
 	width: 100%;
 	text-align: center;
-	padding: 50px;
 	font-family: Century Gothic, sans-serif;
 }
 
